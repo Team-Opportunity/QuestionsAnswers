@@ -1,0 +1,29 @@
+{
+  "name": "questionsAndAnswers",
+  "version": "1.0.0",
+  "description": "Senior Database Capstone",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "nodemon server/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Team-Opportunity/QuestionsAndAnswers.git"
+  },
+  "author": "John Cooke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Team-Opportunity/QuestionsAndAnswers/issues"
+  },
+  "homepage": "https://github.com/Team-Opportunity/QuestionsAndAnswers#readme",
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "csv-parser": "^3.0.0",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "mongodb": "^3.6.5",
+    "mongoose": "^5.12.0"
+  },
+  "dependencies": {}
+}
